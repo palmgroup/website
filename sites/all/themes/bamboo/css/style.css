@@ -438,17 +438,18 @@ footer {
 }
 
 #colophon .footer-area a {
-  color: #fff;
+  color: #80B2FF; /* Custom: The original value was #fff; */ 
 }
 
 .footer-area {
+  font-size: 10px; /* Custom: added */
   float: left;
   list-style: none;
 }
 
 .footer-area .block > h2 {
   color: #fff;
-  font-size: 14px;
+  font-size: 10px; /* Custom: Changed from original */
   font-weight: 700;
   padding: 0px 0px 0px 0px;
   text-transform: uppercase;
@@ -881,6 +882,20 @@ summary {
 #top-links {
   margin-top: 11px;
   text-align: right;
+}
+
+#top-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#top-links ul li { 
+	display: inline; 
+}
+
+#top-links ul li a { 
+	text-decoration: none; 
 }
 
 #content article ul.contextual-links li {
