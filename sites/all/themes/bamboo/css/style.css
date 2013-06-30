@@ -1,10 +1,10 @@
 /**
  * @file
- * General site styles
+ * General site styles #525252
  */
 
 body {
-  color: #525252;
+  color: #185184;
 }
 
 article,
@@ -259,7 +259,7 @@ h6 {
   -moz-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.56);
   background: #fff;
   box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.56);
-  min-height: 112px;
+  min-height: 80px; //112px;
 }
 
 #site-title-wrapper {
@@ -280,9 +280,9 @@ h6 {
 
 .site-slogan {
   color: #333;
-  font-size: 14px;
+  font-size: 10px; //changed from 14px
   font-weight: 400;
-  padding: 10px 0;
+  padding: 40px 0 0 0; //changed from 10px 0;
   text-transform: uppercase;
 }
 

@@ -98,7 +98,7 @@
   <div id="submit-wrapper">
 
     <!-- Overidden in template.php to show just username. -->
-    <span class="submitted"><?php print $submitted; ?></span>
+    <!-- <span class="submitted"><?php print $submitted; ?></span> -->
 
     <!-- Then show the date in parts for better theming. -->
     <div class="date-in-parts">

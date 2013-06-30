@@ -78,11 +78,13 @@
     </div>
 
     <div id="site-title-wrapper">
+    	<!--
       <h1 id="site-title">
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-       <?php print $site_name; ?>
+        <?php print $site_name; ?>
         </a>
       </h1>
+      -->
       <?php if ($site_slogan): ?>
         <div class="site-slogan"><?php print $site_slogan; ?></div><!--site slogan-->
       <?php endif; ?>

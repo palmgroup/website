@@ -41,6 +41,7 @@ function bamboo_form_system_theme_settings_alter(&$form, &$form_state) {
     '#options' => array(
       'gray_gradient' => t('Gray gradient'),
       'green_gradient' => t('Green gradient'),
+      'blue_gradient' => t('Blue gradient'),
       'purple_gradient' => t('Purple gradient'),
       'rust_gradient' => t('Rust gradient'),
       'light_fabric' => t('Light fabric'),
